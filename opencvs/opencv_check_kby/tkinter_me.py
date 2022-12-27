@@ -315,13 +315,4 @@ b2.grid(row=2, column=1,  sticky='e')
 
 fc_window.mainloop()
 
-
-
-
-
-
-
-
-
-
 # %%
