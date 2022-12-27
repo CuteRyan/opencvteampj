@@ -296,8 +296,8 @@ fc_window.geometry('390x70+100+500')
 fc_window.title('FIND BTS (BY.TEAM 방시혁)')
 
 # 격자배치관리 grid
-l1 = Label(fc_window, text='테스트 이미지 경로', width=20)
-l2 = Label(fc_window, text='합성 이미지 경로', width=20)
+l1 = Label(fc_window, text='테스트 이미지 파일명', width=20)
+l2 = Label(fc_window, text='합성 이미지 파일명', width=20)
 l1.grid(row=0, column=0)
 l2.grid(row=1, column=0)
 
@@ -314,14 +314,5 @@ b1.grid(row=2, column=1,  sticky='w')
 b2.grid(row=2, column=1,  sticky='e')
 
 fc_window.mainloop()
-
-
-
-
-
-
-
-
-
 
 # %%
